@@ -12,3 +12,4 @@ int main() {
     printf("Gross salary: %.2f\n", gross_salary);
 
     return 0;
+}

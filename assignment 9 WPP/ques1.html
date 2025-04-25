@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ff5733;
+            padding: 15px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            background: url('https://source.unsplash.com/1600x900/?food') no-repeat center center/cover;
+            padding: 100px 20px;
+            color: rgb(5, 3, 8);
+        }
+        .hero input {
+            padding: 10px;
+            width: 60%;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: rgb(173, 49, 49);
+            border: none;
+            cursor: pointer;
+        }
+
+        .restaurants {
+            text-align: center;
+            padding: 40px;
+        }
+        .restaurant-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .restaurant {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        .restaurant img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Zomato</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover the best food & drinks</h1>
+        <input type="bold" placeholder="Search for restaurants, cuisines, or a dish">
+        <button>Search</button>
+    </section>
+
+    <section class="restaurants">
+        <h2>Popular Restaurants</h2>
+        <div class="restaurant-grid">
+            <div class="restaurant">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS61X09wjwNoWOIn2cy2k1Pihk4BoCg9ENvww&s" alt="restaurant">
+                <h3>Italian Delight</h3>
+                <p>Pizza, Pasta, Italian</p>
+            </div>
+            <div class="restaurant">
+                <img src="https://static.toiimg.com/thumb/imgsize-58538,msid-102774692/102774692.jpg?width=500&resizemode=4" alt="Restaurant">
+                <h3>Spicy Indian</h3>
+                <p>Curry, Biryani, Indian</p>
+            </div>
+            <div class="restaurant">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStiuwghnNfPg0iopcB6elwkgdm-Ml4YYFvAL2fZt7pqjohXkhSXYyJn4Y9gzvIwZcLo10&usqp=CAU" alt="Restaurant">
+                <h3>Street Bites</h3>
+                <p>Fast Food, Snacks</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Zomato Clone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

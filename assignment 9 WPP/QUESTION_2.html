@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        /* Navbar */
+        header {
+            background-color: #232f3e;
+            padding: 15px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff9900;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: url('https://colors.artyclick.com/color-names-dictionary/color-names/bright-orange-color/bright-orange-color_color.png') no-repeat center center/cover;
+            padding: 80px 20px;
+            color: rgb(175, 24, 24);
+        }
+        .hero input {
+            padding: 10px;
+            width: 60%;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .products {
+            text-align: center;
+            padding: 40px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product button {
+            padding: 8px 15px;
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #232f3e;
+            color: rgb(117, 11, 231);
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Amazon</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Shop the Best Products Online</h1>
+        <input type="text" placeholder="Search for products...">
+        <button>Search</button>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRTbZZUZ86mZYVN9n5W1qFCfFiJBL5D-VamQ&s" alt="Product">
+                <h3>Smartphone</h3>
+                <p>$699</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/CE/DO/MY-52920421/mini-laptops-suppliers-in-delhi-brand-venturer-500x500.jpeg" alt="Product">
+                <h3>Laptop</h3>
+                <p>$999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.istockphoto.com/id/851685932/vector/vector-realistic-black-headphone-icon-set.jpg?s=612x612&w=0&k=20&c=O8l7VUoSmKy-ji5ugEGojK2SaC0aBzfmp1VoTh-xaWY=" alt="Product">
+                <h3>Headphones</h3>
+                <p>$199</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://st2.depositphotos.com/1854227/7251/i/450/depositphotos_72517655-stock-photo-running-shoes-on-the-floor.jpg" alt="Product">
+                <h3>Running Shoes</h3>
+                <p>$129</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Amazon Clone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
